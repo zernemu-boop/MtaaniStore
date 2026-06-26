@@ -5,12 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MtaaniStore - Homepage</title>
 
+    <!--This is linking styles and the statics the statics are images and bootstrap; the different types of styles-->
     {%load static%}
+
+     <link rel="stylesheet" href="{%static 'bootstrap/css/bootstrap.min.css'%}">
+    <script> scr="{%static 'bootstrap/js/bootstrap.min.js'%}"</script>
     
 </head>
 <body>
     
     <h1>WELCOME TO MTAANISTORE!</h1>
+
+    <!--This is the code for displaying links using a django template-->
+    <a href="{% url 'gallery' %}" class="btn btn-outline-info">Visit Gallery</a>
+     <a href="{% url 'about' %}"class="btn btn-outline-info">About Us</a>
+      <a href="{% url 'contact' %}"class="btn btn-outline-info">Contact Us</a>
+       <a href="{% url 'services' %}"class="btn btn-outline-info">Services Offered</a>
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat maxime voluptatibus numquam quia quos a placeat quidem, necessitatibus, dolorum similique nisi quisquam aperiam, esse nemo facilis ea molestias dicta officiis.
     Suscipit, quod, sunt recusandae vero quibusdam expedita iure quam facere commodi, mollitia at fugit unde dicta? Quis facilis, sint alias similique dicta nostrum molestias iure officiis rerum hic beatae dolores!</p>

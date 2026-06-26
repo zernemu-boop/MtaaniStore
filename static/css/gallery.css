@@ -7,7 +7,12 @@ h1{
 }
 
 h1:hover{
-    background-color: bisque;
-    color: black;
+    background-color:white;
+    color: red;
 
 }
+
+body{
+    background-color: antiquewhite;
+}
+
