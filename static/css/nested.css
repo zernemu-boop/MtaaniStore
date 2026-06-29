@@ -1,0 +1,17 @@
+h1{
+
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+    
+}
+
+h1:hover{
+    background-color:white;
+    color: red;
+
+}
+
+body{
+    background-color: antiquewhite;
+}
